@@ -105,7 +105,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"asfsfsdfsfda\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
+					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"qwerty\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
