@@ -61,7 +61,7 @@
 							"\r",
 							"pm.test(\"Header cookies response time validation\", function()\r",
 							"{\r",
-							"   \r",
+							"    //Added comments in Test section\r",
 							"    pm.response.to.have.header(\"Content-Type\");\r",
 							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.eql(\"application/json;charset=UTF-8\");\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(2200);\r",
@@ -105,7 +105,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"asqs2sda\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
+					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"asfsfsdfsfda\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
