@@ -94,7 +94,11 @@
 							"pm.environment.set(\"author_name\", pm.iterationData.get(\"Author\"));\r",
 							"\r",
 							"console.log(pm.environment.get(\"book_name\"));\r",
-							"console.log(pm.environment.get(\"author_name\"));"
+							"console.log(pm.environment.get(\"author_name\"));\r",
+							"\r",
+							"const serialNo = Math.floor((Math.random() * 100000) + 1);\r",
+							"pm.environment.set(\"serialNo\", serialNo);\r",
+							"console.log(serialNo);"
 						],
 						"type": "text/javascript"
 					}
@@ -105,7 +109,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"qwerty\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
+					"raw": "{\r\n\r\n\"name\":\"{{book_name}}\",\r\n\"isbn\":\"{{serialNo}}\",\r\n\"aisle\":\"2529857\",\r\n\"author\":\"{{author_name}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
