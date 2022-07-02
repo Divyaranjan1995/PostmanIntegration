@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Library" tests="9" time="0.802">
+  <testsuite name="AddBook" id="d5190b26-d582-4edb-bb5a-f596c1fb1aff" timestamp="2022-07-02T18:57:46.956Z" tests="3" failures="0" errors="0" time="0.112">
+    <testcase name="Validate status code is 200" time="0.081" classname="Library"/>
+    <testcase name="Header cookies response time validation" time="0.081" classname="Library"/>
+    <testcase name="ID Logic Validation" time="0.081" classname="Library"/>
+  </testsuite>
+  <testsuite name="GetBook" id="29a9f17f-d4ba-498b-963a-36a91cdd4fbc" timestamp="2022-07-02T18:57:46.956Z" tests="3" failures="0" errors="0" time="0.077">
+    <testcase name="The book details is successfully retrieved with status code 200" time="0.075" classname="Library"/>
+    <testcase name="Validated response body with status code 200" time="0.075" classname="Library"/>
+    <testcase name="Validated Json schema response body" time="0.075" classname="Library"/>
+  </testsuite>
+  <testsuite name="DeleteBook" id="d47b0bee-0a0e-43a4-b2b8-395fa1be2e86" timestamp="2022-07-02T18:57:46.956Z" tests="1" failures="0" errors="0" time="0.079">
+    <testcase name="The book is successfully deleted with status code 200" time="0.078" classname="Library"/>
+  </testsuite>
+</testsuites>
